@@ -1,3 +1,41 @@
-body{
-  background-color: aquamarine;
+body {
+  background: #000428; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #004e92,
+    #000428
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #004e92,
+    #000428
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#titulo {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(rgb(102, 0, 255), rgb(179, 209, 218));
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 2em;
+}
+
+menu{
+  text-align: center;
+}
+
+menu li {
+  display: inline-block;
+  width: 10%;
+  padding: 5px 10px;
+  background-color: linear-gradient(#000,#004e92);
+  border: 0px solid #000;
+  text-align: center;
+  color: #fff;
+}
+
+menu li:hover{
+  background-color: #2d3a45;
+  border-radius: 11px 11px 11px 11px;
 }
